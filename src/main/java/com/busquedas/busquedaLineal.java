@@ -1,4 +1,5 @@
-import java.util.Arrays;
+package com.busquedas;
+
 import java.util.Random;
 import java.util.Scanner;
 
