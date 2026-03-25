@@ -2,14 +2,14 @@ package org.example;
 import java.util.Scanner;
 import java.util.Random;
 
-        class MatrizPersonalizada {
+        class Matriz {
             public static void main(String[] args) {
                 Scanner sc = new Scanner(System.in);
                 Random rd = new Random();
 
-                System.out.print("Introduce el número de filas (n): ");
+                System.out.print("Introduce el numero de filas (n): ");
                 int n = sc.nextInt();
-                System.out.print("Introduce el número de columnas (m): ");
+                System.out.print("Introduce el numero de columnas (m): ");
                 int m = sc.nextInt();
                 int[][] matriz = new int[n][m];
 
@@ -23,7 +23,7 @@ import java.util.Random;
                 }
 
 
-                System.out.print("\n¿Qué numero quieres buscar?");
+                System.out.print("\n¿Que numero quieres buscar?");
                 int buscar = sc.nextInt();
                 boolean encontrado = false;
 
