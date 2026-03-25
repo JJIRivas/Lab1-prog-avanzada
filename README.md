@@ -3,15 +3,8 @@
 
 Dos clases que tienen el mismo objetivo de buscar un numero en un array 2d pero hecho de distintas maneras. Busqueda lineal/iterativa y busqueda Binaria.
 
-Para ejecutar como archivos (sin Maven), correr:
-
-```
-javac nombreArchivo.java
-java nombreArchivoCreadoPorJavac
-```
-
-con Maven:
+Para correr Busquedas:
 ```
 mvn compile
-java -cp target/classes com.busquedas.nombreArchivoClass
+java -cp target/classes com.busquedas.Benchmark
 ```
